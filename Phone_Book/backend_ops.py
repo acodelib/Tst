@@ -7,7 +7,7 @@ def loadPhoneBook(PhoneBook_Path):
        with open(PhoneBook_Path,'r') as PB_File:
             PB = json.load(PB_File)
             return PB
-    except:
+    except: 
         print('Sorry but Phone book path is not available')
         return 0
 ###########################################################################
